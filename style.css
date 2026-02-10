@@ -65,6 +65,27 @@ a:hover{
     cursor: default;
 }
 
+.flag {
+  margin-top: 7px;
+  height: 23px;
+  width: 30px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.stripe {
+  display: block;
+  width: 100%;
+}
+.red {
+  background-color: #AA151B;
+  height: 25%;
+}
+.yellow {
+  background-color: #F1BF00;
+  height: 50%;
+}
+
+
 /*HAMBURGUER MENU*/
 #hamburguer-nav {
     display: none;
