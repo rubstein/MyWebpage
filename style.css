@@ -205,6 +205,10 @@ section {
     gap: 1rem;
 }
 
+img {
+    border-radius: 5rem;
+}
+
 /*ICON*/
 .icon {
     cursor: pointer;
