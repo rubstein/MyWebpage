@@ -66,7 +66,7 @@ a:hover{
 }
 
 .flag {
-  margin-top: 7px;
+  margin-top: 11px;
   height: 23px;
   width: 30px;
   overflow: hidden;
@@ -89,6 +89,7 @@ a:hover{
 /*HAMBURGUER MENU*/
 #hamburguer-nav {
     display: none;
+    z-index: 1000;
 }
 
 .hamburguer-menu {
@@ -121,6 +122,7 @@ a:hover{
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+    z-index: 1001;
 }
 
 .menu-links a {
@@ -169,7 +171,7 @@ a:hover{
 section {
     padding-top: 4vh;
     height: auto;
-    margin: 0 10rem;
+    padding: 0 10%;
     margin-bottom: 2vh;
     box-sizing: border-box;
     min-height: fit-content;
@@ -210,7 +212,7 @@ section {
 }
 
 .section__text__p2 {
-    font-size: 1.75 rem;
+    font-size: 1.75rem;
     margin-bottom: 1rem;
 }
 
@@ -229,6 +231,7 @@ section {
 img {
     border-radius: 5rem;
 }
+
 
 /*ICON*/
 .icon {
@@ -297,7 +300,7 @@ img {
 
 .arrow {
     position: absolute;
-    right: -5rem;
+    right: 2rem;
     bottom: 2.5rem;
 }
 
@@ -370,7 +373,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 50vh;
     margin-top: 0.25vh;
 }
 
@@ -395,6 +398,7 @@ article .icon {
 
 .contact-info-container p{
     font-size: larger;
+    word-break: break-word;
 }
 
 .contact-icon {
